@@ -1,0 +1,18 @@
+//Custom Fonts
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+//Login Main Container
+  .container {
+    text-align: center;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    position: relative;
+    padding: 17px 10px;
+    font-family: "Open Sans", sans-serif;
+  }
+svg{
+  display: inline;
+}
+

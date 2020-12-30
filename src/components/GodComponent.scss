@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+.head{
+    height: 10vh;
+}
+.bodyHome{
+    display:flex;
+    align-items: center;
+    height:90vh;
+    .leftHome,.rightHome{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex:50%;
+        height:100%;
+    }
+    .leftHome{
+        background-color:rgb(5, 53, 85);
+        height: 100%;
+        background-image: url(../images/concert.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 30px;
+        color: whitesmoke;
+        font-family: "Open Sans", sans-serif;
+        padding-bottom: 200px;
+    }
+    .rightHome{
+        background-color:white;
+        height: 100%;
+    }
+}
+.bodyLoggedIn{
+    display: grid;
+    grid-template-columns: 20% 1% 79% ;
+    background-color: #121212;
+    .leftLoggedIn{
+        background-color: #121212;
+        height: 100vh;
+        display: grid;
+        grid-template-rows:45% 45%;
+    }
+    .HLine{
+        background-color: #121212;
+    }
+    .rightLoggedIn{
+        background-color: #121212;
+        color: white;
+    }
+}

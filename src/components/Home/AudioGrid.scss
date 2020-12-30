@@ -1,0 +1,43 @@
+
+.Top10List{
+    overflow: auto;
+}
+div{
+    .card{
+        margin-left: 10px;
+    }
+}
+.rightLoggedIn button.btn.btn-primary{
+    background-color: inherit;
+    border: 2px solid #0e2473;
+    color: whitesmoke;
+    &:hover{
+        background-color:  #0e2473;
+        color: whitesmoke;
+    }
+}
+.rightHome button.btn.btn-primary{
+    background-color: inherit;
+    border: 2px solid #0e2473;
+    color: black;
+    &:hover{
+        background-color:  #0e2473;
+        color: whitesmoke;
+    }
+    &:active{
+        background-color:  #0e2473;
+        color: whitesmoke;
+        border: none;
+    }
+}
+.playListInput{
+    display: inline;
+    border-bottom: 2px solid black;
+    background-color: #121212;
+    border: none;
+    margin: 10px;
+    border-bottom: 1px solid grey;
+    outline: none;
+    height: 40px;
+    color: whitesmoke;
+}
